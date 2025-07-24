@@ -21,11 +21,6 @@ int main() {
     scanf("%d", &n);
     printf("nhap so canh: ");
     scanf("%d", &v);
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < n; j++) {
-            matrix[i][j] = 0;
-        }
-    }
     printf("nhap canh: ");
     for (int i = 0; i < v; i++) {
         int u, w;
